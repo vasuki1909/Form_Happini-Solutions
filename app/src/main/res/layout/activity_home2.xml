@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:background="@android:color/holo_green_light"
+    tools:context=".HomeActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp"
+            >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please fill the form"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textColor="#DC5180"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/form_name"
+        android:hint="Enter your name"
+        android:background="@android:color/white"
+        android:padding="10dp"
+         ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/form_mob"
+        android:layout_marginTop="25dp"
+        android:hint="Enter your mobile number"
+        android:inputType="phone"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        ></EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Which type of service did you use? Select from below."
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        ></TextView>
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/spinner"
+    ></Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Any other remarks?"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/form_remarks"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        ></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btn"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+    ></Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

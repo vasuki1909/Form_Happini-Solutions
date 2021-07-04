@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string-array name="names">
+        <item>Beauty Style and Spa </item>
+        <item>Cleaning</item>
+        <item>Repairing</item>
+        <item>Construction and Renovation</item>
+        <item>Training and Fitness</item>
+        <item>AC Service and Repair</item>
+        <item>Car Cleaning</item>
+        <item>Refrigerator Repair</item>
+    </string-array>
+</resources>
